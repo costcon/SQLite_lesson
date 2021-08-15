@@ -10,4 +10,19 @@
 
 勉強開始　 8 月 10 日〜
 
-07.HAVING まで
+09.PostgreSQL の環境構築まで
+
+Postgresql 基本コマンド
+
+Postgres 起動
+ターミナルユーザー直下にて下記コマンド
+
+postgres -D /opt/homebrew/var/postgres
+
+データベースの切断
+
+\q
+
+postgresql の停止
+
+contrl + C
