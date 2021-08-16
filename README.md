@@ -12,7 +12,7 @@
 
 09.PostgreSQL の環境構築まで
 
-Postgresql 基本コマンド
+Postgresql 基本コマンド説明
 
 Postgres 起動
 ターミナルユーザー直下にて下記コマンド
