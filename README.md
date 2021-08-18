@@ -18,6 +18,7 @@ Postgres 起動
 ターミナルユーザー直下にて下記コマンド
 
 postgres -D /opt/homebrew/var/postgres
+※その後アプリ起動しパスワード入力
 
 データベースの切断
 
@@ -26,3 +27,22 @@ postgres -D /opt/homebrew/var/postgres
 postgresql の停止
 
 contrl + C
+
+## PGadmin
+
+バックアップ
+
+Pgadmin を起動した状態のターミナル上で
+pg_dump postgres > /Users/kamiyamatakuto/Desktop/SQLite.test_db
+
+格納先とファイル名を指定して新規作成される
+
+復元
+
+Pgadmin の復元したい Database を選択 Create→Database をクリックしデータベース名を決める
+
+その後ターミナルで
+
+Psql database 名 < ファイル名
+
+と入力する
