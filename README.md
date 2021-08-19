@@ -28,7 +28,7 @@ postgresql の停止
 
 contrl + C
 
-## PGadmin
+## PGadmin の操作
 
 バックアップ
 
