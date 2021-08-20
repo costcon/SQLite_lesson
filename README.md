@@ -46,3 +46,5 @@ Pgadmin の復元したい Database を選択 Create→Database をクリック�
 Psql database 名 < ファイル名
 
 と入力する
+
+PGadomin 停止方法
