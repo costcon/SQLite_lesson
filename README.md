@@ -47,4 +47,5 @@ Psql database 名 < ファイル名
 
 と入力する
 
-PGadomin 停止方法
+PGadomin 停止
+
